@@ -19,6 +19,9 @@ KEY_FILE: key.pem
 API_URL: https://api.openai.com
 # 代理设置, 例如 "http://127.0.0.1:7890", ""代表不使用代理
 HTTP_PROXY: ""
+# openai 指定模型
+# 可选参数有："gpt-4-0314", "gpt-4", "gpt-3.5-turbo-0301", "gpt-3.5-turbo"，如果使用gpt-4，请确认自己是否有接口调用白名单
+OPENAI_MODEL: gpt-3.5-turbo
 
 # AZURE OPENAI
 AZURE_ON: true # set to true to use Azure rather than OpenAI
